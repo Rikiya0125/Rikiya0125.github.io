@@ -18,4 +18,14 @@ function samples2(sample1 = "サンプル"){
 samples2("サンプル2");
 
 /*  演習 */
+function personal({name="阿部力也",old=19}){
+  console.log("名前は"+name+"です。");
+  console.log("年齢は"+old+"歳です。");
+}
+personal({old:19,name:"阿部力也"});
 
+/* 演習 */
+function calculation(number){
+  return number
+}
+console.log(calculation(2021*1010));
